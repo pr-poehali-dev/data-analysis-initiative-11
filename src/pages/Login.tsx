@@ -11,6 +11,7 @@ export default function Login() {
     e.preventDefault();
     // Здесь будет логика авторизации
     console.log('Login with:', method, value);
+    navigate('/messenger');
   };
 
   return (
