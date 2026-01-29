@@ -75,9 +75,12 @@ export default function HeroSection() {
                   Регистрируйтесь по номеру телефона или email. Общайтесь безопасно и удобно.
                 </p>
                 <div className="flex gap-4 pt-6">
-                  <button className="px-8 py-3 bg-white text-gray-900 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg">
+                  <a
+                    href="/login"
+                    className="px-8 py-3 bg-white text-gray-900 rounded-full font-semibold text-lg hover:bg-gray-100 transition-colors shadow-lg inline-block"
+                  >
                     Начать общение
-                  </button>
+                  </a>
                   <button className="px-8 py-3 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 rounded-full font-semibold text-lg hover:bg-white/20 transition-colors">
                     Узнать больше
                   </button>
